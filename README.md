@@ -34,5 +34,29 @@ Redis configuration in redis-config.xml
 </beans>
 ```
 
+Manage dependency libraries in pom.xml ( Maven project )
+-------------------------
+
+Spring framework repository
+
+```
+
+<repository>
+   <id>spring-release</id>
+   <name>Spring Maven RELEASE Repository</name>
+   <url>http://maven.springframework.org/release</url>
+</repository>
+```	
+
+Spring Data Redis
+
+```
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-redis</artifactId>
+    <version>1.0.5.RELEASE</version>
+</dependency>
+```
+
 
 
