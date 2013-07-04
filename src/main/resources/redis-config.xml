@@ -1,16 +1,3 @@
-Geeky Academe Week 3
-================
-Develop Spring Framework application with Spring Data :: Redis + XML Configuration
-
-	- Spring Framework 3.2.3
-	- Spring Data
-	- Spring Test
-	- jUnit 4.10
-	
-Redis configuration in redis-config.xml
--------------------------
-
-```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
@@ -32,7 +19,3 @@ Redis configuration in redis-config.xml
 		p:connection-factory-ref="jedisConnectionFactory" />
 
 </beans>
-```
-
-
-
