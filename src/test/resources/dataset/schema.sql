@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS AGENT_DATA;
+CREATE TABLE AGENT_DATA
+(
+  AGENT_ID  DECIMAL(18) DEFAULT 0,
+  AD_KEY    VARCHAR(20)                         NOT NULL,
+  VALUE     VARCHAR(255)                        NOT NULL
+);

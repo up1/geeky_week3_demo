@@ -1,6 +1,13 @@
+mem.*
 *.class
-
-# Package Files #
-*.jar
 *.war
 *.ear
+*.rar
+.classpath
+.project
+db.properties
+.settings/
+target/
+.DS_Store
+.idea/
+*.iml
